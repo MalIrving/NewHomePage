@@ -1,0 +1,19 @@
+h1 {
+  padding: 2rem 0;
+  color: blueviolet;
+}
+p {
+  padding: 2rem;
+}
+
+footer {
+  background-color: aquamarine;
+}
+
+footer p {
+  text-align: center;
+}
+
+a:link {
+  color: black;
+}
