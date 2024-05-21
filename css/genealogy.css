@@ -50,10 +50,16 @@ a:link {
   padding-left: 0px;
   text-align: center;
   color: blue;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+#GenealogyHeader h1 {
+  padding-top: 2rem;
 }
 
 .IrvingCrest {
-  position: relative;
+  position: absolute;
   float: left;
   padding: 10px 0 10px 10px;
 }
@@ -65,23 +71,18 @@ a:link {
   margin: 0 5rem;
 }
 
-.Irving,
-.Leeson,
-.Paine,
-.Naumann,
-.Law {
-  float: left;
-  width: 168px;
-  background-color: #ccc;
-  padding: 10px;
+.GenealogyBranch {
+  display: flex;
+  justify-content: space-around;
   height: 600px;
-  margin-left: 10rem;
+  margin: 0 5rem;  
 }
-.Irving,
-.Leeson,
-.Paine,
-.Naumann,
-.Law a {
+
+.surname ul{
+  padding-left: 5rem;
+}
+
+.surname a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-decoration: none;
