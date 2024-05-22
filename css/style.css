@@ -18,6 +18,7 @@ body {
   color: black;
   padding: 3rem;
 }
+
 hr {
   display: block;
   unicode-bidi: isolate;
@@ -29,9 +30,11 @@ hr {
   border-style: inset;
   border-width: 1px;
 }
+
 .clearBoth {
   clear: both;
 }
+
 .header {
   background-image: linear-gradient(
       to right,
