@@ -131,6 +131,20 @@ td {
   background-image: none;
 }
 
+.personal_photo_left{
+  display: flex;
+  flex-direction: row;
+  
+}
+.personal_figure {
+  width:20%;  
+  margin: 20px;
+}
+
+.personal_img {
+  width: 100%;
+  height: 100%;
+}
 /* Grid Version */
 
 #header_grid {
