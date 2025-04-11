@@ -137,13 +137,17 @@ td {
   
 }
 .personal_figure {
-  width:20%;  
+  width:30%;  
   margin: 20px;
 }
 
 .personal_img {
   width: 100%;
   height: 100%;
+}
+
+.grandchildren {
+  margin: 2rem 0;
 }
 /* Grid Version */
 
