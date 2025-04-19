@@ -1,5 +1,3 @@
-
-
 /* common */
 
 body {
@@ -41,12 +39,11 @@ a:link {
 }
 /* end of common */
 
-
 /* My Genealogy Direct Ancesters */
 
 #GenealogyHeader {
   background-color: #ccc;
-  height: 12.5rem;  
+  height: 12.5rem;
   padding-left: 0px;
   text-align: center;
   color: blue;
@@ -75,10 +72,10 @@ a:link {
   display: flex;
   justify-content: space-around;
   height: 600px;
-  margin: 0 5rem;  
+  margin: 0 5rem;
 }
 
-.surname ul{
+.surname ul {
   padding-left: 5rem;
 }
 
@@ -131,13 +128,14 @@ td {
   background-image: none;
 }
 
-.personal_photo_left{
+.personal_photo_left {
   display: flex;
   flex-direction: row;
-  
 }
 .personal_figure {
-  width:30%;  
+  display: flex;
+  flex-flow: column;
+  width: 30%;
   margin: 20px;
 }
 
@@ -176,15 +174,4 @@ td {
 /* end of Grid Version */
 /* end of Personal Home Page */
 
-
-
-
-
-
-
-
-
 /* Henry Leeson */
-
-
-
